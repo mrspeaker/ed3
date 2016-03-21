@@ -1,0 +1,48 @@
+{
+  "name": "my game",
+  "meta": "ed3_v0.01",
+  "main": "title",
+  "scenes": {
+    "title": {
+      "name": "title",
+      "events": [{
+        "name": "onload",
+        "comps": [
+          [
+            "ConsoleLog",
+            "hey!"
+          ]
+        ]
+      }],
+      "entities": [{
+        "name": "player",
+        "comps": [
+          [
+            "Position",
+            71,
+            150,
+            67,
+            94,
+            10
+          ],
+          [
+            "KeyController"
+          ],
+          [
+            "Player"
+          ],
+          [
+            "Renderer",
+            "",
+            "jump",
+            "p1_stand.png",
+            1
+          ]
+        ]
+      }]
+    }
+  },
+  "components": [
+    "ConsoleLog"
+  ]
+}

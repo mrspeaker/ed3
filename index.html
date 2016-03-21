@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>ED3</title>
+    <link href="styles/main.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <strong>ed3</strong>&nbsp;
+      <span id="game_name"></span>
+    </header>
+    <app>
+      <nav>
+        <textarea id="config" rows="40">
+  ...open ed3.json...
+        </textarea>
+      </nav>
+      <article>
+        <div id="board"></div>
+      </article>
+      <aside>
+        <button id="btnAdd">new</button>
+        <div class="stats">
+          node <script>document.write(process.versions.node)</script>,
+          Chromium <script>document.write(process.versions.chrome)</script>,
+          and Electron <script>document.write(process.versions.electron)</script>.
+        </div>
+      </aside>
+    </app>
+    <script src="src/app.js"></script>
+  </body>
+</html>
