@@ -1,5 +1,8 @@
 # ed3
 
+can't stop writing these.
+
+
 TO use: open->`/game/ged3/ed3.json`
 
 will be a component system like unity. See Zardozer.
